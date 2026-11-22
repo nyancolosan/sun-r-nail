@@ -48,7 +48,7 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 - 写真は使わない（ロゴのみ）。住所・地図は載せない。LINEは使わない
 - アニメーション：読み込み時のロゴ／文字、スクロールでセクションがふわっと表示、ボタンのホバー。`prefers-reduced-motion` で無効化
 - 波の音：ヘッダーの「SOUND」ボタンでON（初期OFF）。Web Audio で生成（音声ファイルなし）
-- ヒーローの R の中（上の塊の部分）にネイルのイラスト（指先とネイルブラシの線画、`images/nail-illust-white.png`、生成り色 #F8F7F3・背景透過、left 35%／top 27%／幅 24%）。ネイルサロンだと一目で分かるように追加。R と一緒に動く。R に番号は入れない（2026-11 に削除）
+- ヒーローの R には番号もイラストも入れない（2026-11 にどちらも削除）
 - フッターに sun_r のブランドナビ（sun_r brands／sun_r nail（現在地）／handmade shop／creative／build）。リンク先は https://sun-r-brands.pages.dev/ 配下で、同じタブで開く（brands へ戻るための導線）
 
 ## 確定している情報
