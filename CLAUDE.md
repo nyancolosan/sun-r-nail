@@ -68,17 +68,13 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 
 **公開前にオーナーへ確認すること**：仮の情報（定休日・お支払い）が表示されたまま公開してよいか。
 
-## デプロイ（Cloudflare Workers 静的アセット）
+## デプロイ（公開済み：Cloudflare Pages + GitHub 自動デプロイ）
 
-```bash
-npm install -g wrangler        # 未導入なら
-wrangler login                 # ブラウザでCloudflareにログイン（オーナー本人が行う）
-wrangler deploy                # public/ がそのまま配信される
-```
-
-- 公開URL：`https://sun-r-nail.<アカウントのサブドメイン>.workers.dev`
-- 独自ドメインを使う場合：Cloudflare ダッシュボード → Workers & Pages → sun-r-nail → Settings → Domains & Routes で追加
-- GitHubと連携して自動デプロイする場合：このフォルダをリポジトリにpushし、ダッシュボードの Workers & Pages → Create → Import a repository から接続（ビルドコマンドなし、デプロイコマンド `npx wrangler deploy`）
+- 公開URL：https://sun-r-nail.pages.dev/
+- GitHub `nyancolosan/sun-r-nail` の `main` に push すると自動でデプロイされる
+- Pages 設定：フレームワークなし／ビルドコマンドなし／ビルド出力ディレクトリ `public`
+- 独自ドメインを使う場合：Workers & Pages → sun-r-nail → カスタムドメイン で追加し、index.html の canonical・og:url・og:image・JSON-LD の URL も差し替える
+- `wrangler.jsonc` は Workers で配信する場合の設定（現在の Pages 公開では未使用）
 
 ## 確認項目（公開後）
 
