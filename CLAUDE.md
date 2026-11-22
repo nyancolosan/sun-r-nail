@@ -49,6 +49,9 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 - アニメーション：読み込み時のロゴ／文字、スクロールでセクションがふわっと表示、ボタンのホバー。`prefers-reduced-motion` で無効化
 - 波の音：ヘッダーの「SOUND」ボタンでON（初期OFF）。Web Audio で生成（音声ファイルなし）
 - ヒーローの R には番号もイラストも入れない（2026-11 にどちらも削除）
+- 表示名は「sun_r nail」（ヘッダーとヒーローの大きな文字）。フッターのロゴ文字は「sun_r」のまま
+- ヒーローの「PRIVATE NAIL SALON」の下にネイルカラーのしずく（`.drops`：爪の形の楕円5つ、ブルー #134CA5／#5B83C9／#A9BEE3、ベージュ #E4D9CC、生成り）。読み込み時に左から順にポンと出る
+- スマホのヘッダー：600px 以下でロゴ文字を 16px、360px 以下ではロゴ文字・SOUND・ご予約を詰めて、320px 幅でも横スクロールが出ないようにしている
 - フッターに sun_r のブランドナビ（sun_r brands／sun_r nail（現在地）／handmade shop／creative／build）。リンク先は https://sun-r-brands.pages.dev/ 配下で、同じタブで開く（brands へ戻るための導線）
 
 ## 確定している情報
