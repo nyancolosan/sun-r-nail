@@ -1,0 +1,9 @@
+{
+  // sun_r nail salon — 静的サイト（Cloudflare Workers の静的アセット配信）
+  "name": "sun-r-nail",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  }
+}

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sun_r nail salon</title>
+<meta name="description" content="完全予約制のプライベートネイルサロン sun_r。ご予約はホットペッパービューティーから。">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<!-- SITE_URL: 公開URLが決まったら以下の canonical / og:url / og:image / JSON-LD を絶対URLに差し替える -->
+<meta property="og:title" content="sun_r nail salon">
+<meta property="og:description" content="完全予約制のプライベートネイルサロン sun_r。ご予約はホットペッパービューティーから。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/logo-ivory.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "sun_r",
+  "logo": "images/logo-ivory.png",
+  "sameAs": ["https://www.instagram.com/sun___r_nail/"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&amp;family=Zen+Kaku+Gothic+New:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F8F7F3}
+a{color:#111111}a:hover{color:#134CA5}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,48px);box-sizing:border-box}
+.hero{display:flex;flex-direction:column}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:64px;align-items:start}
+.menu-row{display:flex;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid #E6E1DB}
+.btn:focus-visible{outline:2px solid #134CA5;outline-offset:3px}
+#reserve .btn:focus-visible{outline-color:#F8F7F3}
+.label{font-family:'Jost',sans-serif;font-weight:400;font-size:13px;letter-spacing:0.18em;color:#134CA5;margin:0 0 12px}
+@media(max-width:860px){.hero,.two{grid-template-columns:minmax(0,1fr);gap:36px}.navlinks{display:none !important}}
+</style>
+<style>html{scroll-behavior:smooth}*{box-sizing:border-box}</style>
+<style>
+/* motion */
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.82) rotate(-6deg)}60%{opacity:1;transform:scale(1.04) rotate(1.5deg)}100%{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.hero-logo{animation:pop 1s cubic-bezier(.2,.8,.2,1) both}
+.hero-logo img{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.hero-logo:hover img{transform:rotate(-4deg) scale(1.03)}
+.hero-rise{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+.d1{animation-delay:.45s}.d2{animation-delay:.65s}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.btn{transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease,color .25s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(19,76,165,.18)}
+header{position:sticky;top:0;z-index:10;transition:box-shadow .3s ease}
+header.scrolled{box-shadow:0 2px 16px rgba(17,17,17,.06)}
+.header-logo img{transition:transform .4s ease}.header-logo:hover img{transform:rotate(-8deg)}
+#hand,#foot{animation:fadeIn .4s ease both}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+<style>
+.sound{min-height:44px;padding:0 14px;border:1px solid #CFCAC4;border-radius:999px;background:transparent;color:#111111;font:400 12px/1 'Jost',sans-serif;letter-spacing:.14em;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.sound[aria-pressed="true"]{border-color:#134CA5;color:#134CA5}
+.sound[aria-pressed="true"]::before{content:"";width:6px;height:6px;border-radius:50%;background:#134CA5;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+@media(max-width:420px){.sound{padding:0 10px;letter-spacing:.08em}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif; color: #111111; background: #F8F7F3; font-size: 16px; line-height: 1.9">
+
+<header style="border-bottom: 1px solid #E6E1DB; background: #F8F7F3">
+<div class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px">
+<a href="#top" class="header-logo" style="text-decoration: none; display: flex; align-items: center; gap: 10px; font-family: 'Jost', sans-serif; font-weight: 400; font-size: 20px; letter-spacing: 0.12em"><img src="images/logo.svg" alt="" width="36" height="36" style="width: 36px; height: 36px; display: block">sun_r</a>
+<nav class="navlinks" style="display: flex; gap: 36px; font-size: 13px; font-family: 'Jost', sans-serif; letter-spacing: 0.12em">
+<a href="#menu" style="text-decoration: none">MENU</a>
+<a href="#stylist" style="text-decoration: none">STYLIST</a>
+<a href="#access" style="text-decoration: none">ACCESS</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 8px; flex: none"><button id="sound" class="btn sound" type="button" aria-pressed="false" aria-label="波の音を再生">SOUND <span id="sound-state">OFF</span></button>
+<a class="btn" href="#reserve" style="text-decoration: none; border-radius: 999px; background: #134CA5; color: #F8F7F3; font-size: 13px; padding: 12px 24px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; white-space: nowrap; flex: none; letter-spacing: 0.08em">ご予約</a></div>
+</div>
+</header>
+
+<section id="top" style="padding: clamp(96px,16vw,200px) 0 clamp(80px,12vw,160px)">
+<div class="wrap hero">
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
+<h1 class="hero-logo" style="margin: 0"><img src="images/logo.svg" alt="sun_r" width="220" height="220" style="width: clamp(160px,20vw,220px); height: auto; display: block"></h1>
+<div class="hero-rise d1" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><p style="margin: 0; font-family: 'Jost', sans-serif; font-weight: 400; font-size: clamp(28px,3.4vw,36px); letter-spacing: 0.14em; line-height: 1.2; color: #111111">sun_r</p><p class="label" style="margin: 0">PRIVATE NAIL SALON</p></div>
+<div class="hero-rise d2" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px">
+<a class="btn" href="https://beauty.hotpepper.jp/kr/slnH000732849/" target="_blank" rel="noopener" style="text-decoration: none; border-radius: 999px; background: #134CA5; color: #F8F7F3; padding: 14px 30px; font-size: 14px; letter-spacing: 0.06em">空き状況を見る</a>
+<a class="btn" href="#menu" style="text-decoration: none; border-radius: 999px; border: 1px solid #111111; padding: 13px 30px; font-size: 14px; letter-spacing: 0.06em">メニューと料金</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="menu" style="border-top: 1px solid #E6E1DB; padding: clamp(56px,8vw,112px) 0">
+<div class="wrap two reveal">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<p class="label" style="margin: 0">MENU &amp; PRICE</p>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(24px,2.8vw,32px); letter-spacing: 0.04em">メニュー・料金</h2>
+<p style="margin: 8px 0 0; color: #555555; font-size: 14px">はじめての方とリピーターの方で料金が異なります。</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 36px">
+<div role="group" aria-label="料金の種類" style="display: flex; gap: 8px; flex-wrap: wrap">
+<div id="tabs" style="display: contents"></div>
+</div>
+<div>
+<h3 style="margin: 0 0 4px; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.16em; color: #134CA5">HAND</h3>
+<div id="hand"></div>
+</div>
+<div>
+<h3 style="margin: 0 0 4px; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.16em; color: #134CA5">FOOT</h3>
+<div id="foot"></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="stylist" style="border-top: 1px solid #E6E1DB; padding: clamp(56px,8vw,112px) 0">
+<div class="wrap two reveal">
+<div>
+<p class="label">STYLIST</p>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(24px,2.8vw,32px); letter-spacing: 0.04em">スタイリスト</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-family: 'Jost', sans-serif; font-weight: 400; font-size: clamp(28px,3vw,34px); letter-spacing: 0.12em; line-height: 1.2">riho</p>
+<div>
+<h3 style="margin: 0 0 4px; font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.16em; color: #134CA5">QUALIFICATION</h3>
+<div class="menu-row"><span>JNECネイリスト技能検定</span><span style="white-space: nowrap">1級</span></div>
+<div class="menu-row"><span>JNAジェルネイル技能検定</span><span style="white-space: nowrap">上級</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="reserve" style="background: #134CA5; color: #F8F7F3; padding: clamp(64px,9vw,120px) 0">
+<div class="wrap reveal" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px">
+<p class="label" style="margin: 0; color: #C9D3E8">RESERVATION</p>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(24px,2.8vw,34px); letter-spacing: 0.04em">ご予約</h2>
+<p style="margin: 0; color: #DDE3EF; max-width: 32em; font-size: 15px">ご予約はホットペッパービューティーから24時間受け付けています。最新のデザインやお知らせはInstagramでご覧いただけます。</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 16px">
+<a class="btn" href="https://beauty.hotpepper.jp/kr/slnH000732849/" target="_blank" rel="noopener" style="text-decoration: none; border-radius: 999px; background: #F8F7F3; color: #134CA5; padding: 16px 30px; min-width: 220px; box-sizing: border-box; letter-spacing: 0.06em">ネット予約</a>
+<a class="btn" href="https://www.instagram.com/sun___r_nail/" target="_blank" rel="noopener" style="text-decoration: none; border-radius: 999px; border: 1px solid #F8F7F3; color: #F8F7F3; padding: 15px 30px; min-width: 220px; box-sizing: border-box; letter-spacing: 0.06em">Instagram</a>
+</div>
+</div>
+</section>
+
+<section id="access" style="padding: clamp(56px,8vw,112px) 0">
+<div class="wrap two reveal">
+<div>
+<p class="label">ACCESS</p>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(24px,2.8vw,32px); letter-spacing: 0.04em">店舗情報</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<dl style="margin: 0; display: grid; grid-template-columns: 6em minmax(0,1fr); row-gap: 14px; column-gap: 16px; font-size: 14px">
+<dt style="color: #6B6B6B">アクセス</dt><dd style="margin: 0">南海電鉄 岸和田駅 中央出口から徒歩2分</dd>
+<dt style="color: #6B6B6B">営業時間</dt><dd style="margin: 0">10:00〜20:00</dd>
+<dt style="color: #6B6B6B">定休日</dt><dd style="margin: 0">不定休（Instagramでお知らせ）</dd>
+<dt style="color: #6B6B6B">お支払い</dt><dd style="margin: 0">現金・各種クレジットカード・QR決済</dd>
+</dl>
+<p style="margin: 0; font-size: 12px; color: #6B6B6B">※定休日・お支払い方法は仮の情報です</p>
+</div>
+</div>
+</section>
+
+<footer style="border-top: 1px solid #E6E1DB; padding: 40px 0">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; color: #6B6B6B">
+<span style="font-family: 'Jost', sans-serif; font-weight: 400; font-size: 18px; letter-spacing: 0.12em; color: #111111">sun_r</span>
+<span style="font-family: 'Jost', sans-serif; letter-spacing: 0.08em">© sun_r nail salon</span>
+</div>
+</footer>
+
+</div>
+<script>
+{
+  const hand = [
+    { name: 'ワンカラー', n: 5000, r: 5000 },
+    { name: 'グラデーション', n: 5300, r: 5800 },
+    { name: 'マグネットワンカラー\nミラーワンカラー\nフラッシュワンカラー', n: 5800, r: 6000 },
+    { name: '定額デザイン', n: 6300, r: 6800 },
+    { name: 'クリアネイル', n: 4800, r: 4800 }
+  ];
+  const foot = [
+    { name: 'マグネットワンカラー', n: 8000, r: 8000 },
+    { name: 'ワンカラー', n: 7500, r: 7500 }
+  ];
+  const tiers = [{ id: 'new', label: 'ご新規様' }, { id: 'repeat', label: 'リピーター様' }];
+  const yen = (v) => '¥' + v.toLocaleString('ja-JP');
+  const base = 'min-height: 44px; padding: 10px 22px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer; ';
+  const on = base + 'background: #134CA5; color: #F8F7F3; border: 1px solid #134CA5';
+  const off = base + 'background: transparent; color: #111111; border: 1px solid #CFCAC4';
+  const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const rows = (list, tier) => list.map((m) =>
+    '<div class="menu-row"><span style="white-space: pre-line">' + esc(m.name) + '</span><span style="white-space: nowrap">' + yen(tier === 'new' ? m.n : m.r) + '</span></div>').join('');
+  let tier = 'new';
+  const render = () => {
+    document.getElementById('tabs').innerHTML = tiers.map((t) =>
+      '<button class="btn" type="button" data-tier="' + t.id + '" aria-pressed="' + (t.id === tier) + '" style="' + (t.id === tier ? on : off) + '">' + t.label + '</button>').join('');
+    ['hand','foot'].forEach((id) => { const el = document.getElementById(id); el.style.animation = 'none'; void el.offsetWidth; el.style.animation = ''; });
+    document.getElementById('hand').innerHTML = rows(hand, tier);
+    document.getElementById('foot').innerHTML = rows(foot, tier);
+  };
+  document.getElementById('tabs').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-tier]');
+    if (b) { tier = b.dataset.tier; render(); }
+  });
+  render();
+}
+</script>
+<script>
+{
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    els.forEach((el) => io.observe(el));
+  } else { els.forEach((el) => el.classList.add('in')); }
+  const hd = document.querySelector('header');
+  const onScroll = () => hd.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+}
+</script>
+<script>
+{
+  // 波の音（Web Audioで生成。音声ファイル不要）
+  const btn = document.getElementById('sound');
+  const label = document.getElementById('sound-state');
+  let ctx = null, master = null, timer = null, on = false;
+  const makeNoise = (c) => {
+    const len = c.sampleRate * 4, buf = c.createBuffer(2, len, c.sampleRate);
+    for (let ch = 0; ch < 2; ch++) {
+      const d = buf.getChannelData(ch); let last = 0;
+      for (let i = 0; i < len; i++) { const w = Math.random() * 2 - 1; last = (last + 0.02 * w) / 1.02; d[i] = last * 3.5; }
+    }
+    return buf;
+  };
+  const layer = (c, type, freq, q) => {
+    const src = c.createBufferSource(); src.buffer = makeNoise(c); src.loop = true;
+    src.playbackRate.value = 0.9 + Math.random() * 0.2;
+    const f = c.createBiquadFilter(); f.type = type; f.frequency.value = freq; f.Q.value = q;
+    const g = c.createGain(); g.gain.value = 0.0001;
+    src.connect(f).connect(g).connect(master); src.start();
+    return { g, f };
+  };
+  const start = () => {
+    ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+    master = ctx.createGain(); master.gain.value = 0; master.connect(ctx.destination);
+    master.gain.setTargetAtTime(0.38, ctx.currentTime, 1.2);
+    const body = layer(ctx, 'lowpass', 450, 0.3);   // 寄せる波のこもった音
+    const foam = layer(ctx, 'bandpass', 2200, 0.35); // 砂浜に広がる「サーッ」
+    const base = layer(ctx, 'lowpass', 180, 0.2);   // 遠くの海のさざめき（常に小さく）
+    base.g.gain.setTargetAtTime(0.05, ctx.currentTime, 2);
+    const swell = () => {
+      const t = ctx.currentTime;
+      const up = 3.5 + Math.random() * 2, down = 5 + Math.random() * 3, rest = 0.5 + Math.random() * 1.5;
+      const peak = 0.14 + Math.random() * 0.14;
+      body.g.gain.cancelScheduledValues(t); body.f.frequency.cancelScheduledValues(t);
+      body.g.gain.setTargetAtTime(peak, t, up / 3);
+      body.f.frequency.setTargetAtTime(1300, t, up / 3);
+      body.g.gain.setTargetAtTime(0.012, t + up, down / 3);
+      body.f.frequency.setTargetAtTime(450, t + up, down / 3);
+      foam.g.gain.cancelScheduledValues(t);
+      foam.g.gain.setTargetAtTime(0.0001, t, 0.5);
+      foam.g.gain.setTargetAtTime(peak * 0.85, t + up * 0.6, 0.9);
+      foam.g.gain.setTargetAtTime(0.015, t + up + 1, down / 2.2);
+      timer = setTimeout(swell, (up + down + rest) * 1000);
+    };
+    swell(); ctx.resume();
+  };
+  const stop = () => {
+    clearTimeout(timer);
+    if (master) { const m = master; m.gain.cancelScheduledValues(ctx.currentTime); m.gain.setTargetAtTime(0, ctx.currentTime, 0.6); setTimeout(() => m.disconnect(), 3000); }
+  };
+  btn.addEventListener('click', () => {
+    on = !on;
+    try { on ? start() : stop(); } catch (e) { on = false; }
+    btn.setAttribute('aria-pressed', String(on));
+    btn.setAttribute('aria-label', on ? '波の音を停止' : '波の音を再生');
+    label.textContent = on ? 'ON' : 'OFF';
+  });
+  document.addEventListener('visibilitychange', () => { if (ctx) document.hidden ? ctx.suspend() : (on && ctx.resume()); });
+}
+</script>
+</body>
+</html>
