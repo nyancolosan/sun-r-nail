@@ -42,6 +42,7 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 - 写真は使わない（ロゴのみ）。住所・地図は載せない。LINEは使わない
 - アニメーション：読み込み時のロゴ／文字、スクロールでセクションがふわっと表示、ボタンのホバー。`prefers-reduced-motion` で無効化
 - 波の音：ヘッダーの「SOUND」ボタンでON（初期OFF）。Web Audio で生成（音声ファイルなし）
+- フッターに sun_r のブランドナビ（sun_r brands／sun_r nail（現在地）／handmade shop／creative）。リンク先は https://sun-r-brands.pages.dev/ 配下で、同じタブで開く（brands へ戻るための導線）
 
 ## 確定している情報
 
