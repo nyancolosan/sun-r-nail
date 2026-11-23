@@ -48,7 +48,7 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 ## デザインの要点（変更禁止）
 
 - 色：背景 生成り `#F8F7F3`／文字 黒 `#111111`（サブ `#555555`、注記 `#6B6B6B`）／アクセント ブルー `#134CA5`（主ボタン・英字ラベル・カテゴリ名・予約セクション背景のみ）
-- フォント：和文 Noto Sans JP、英字（ブランド名 sun_r 含む）Abril Fatface（太く強弱のある装飾セリフ体・1スタイルのみ）（2026-11-23 に Zen Kaku Gothic New／Jost から変更。英字は Smooch Sans・Science Gothic・Caveat・Knewave・Boogaloo・Sue Ellen Francisco・Pacifico を経て Abril Fatface に）
+- フォント：和文 Noto Sans JP、英字（ブランド名 sun_r 含む）Cinzel（大文字だけの古典的なセリフ体。小文字も大文字の形で表示される）（2026-11-23 に Zen Kaku Gothic New／Jost から変更。英字は Smooch Sans・Science Gothic・Caveat・Knewave・Boogaloo・Sue Ellen Francisco・Pacifico・Abril Fatface を経て Cinzel に）
 - 写真は使わない（ロゴのみ）。住所・地図は載せない。LINEは使わない
 - アニメーション：読み込み時のロゴ／文字、スクロールでセクションがふわっと表示、ボタンのホバー。`prefers-reduced-motion` で無効化
 - 波の音：ヘッダーの「SOUND」ボタンでON（初期OFF）。Web Audio で生成（音声ファイルなし）
