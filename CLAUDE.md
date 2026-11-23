@@ -56,7 +56,7 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 - 表示名は「sun_r nail」（ヘッダーとヒーローの大きな文字）。フッターのロゴ文字は「sun_r」のまま
 - ヒーローの「PRIVATE NAIL SALON」の下にネイルチップ（`.drops`：爪の形の楕円5つ。色はブルー #134CA5／くすみピンク #E3A9AE／マスタード #E5BD42／セージ #A7C1AA／ベージュ #DCCBB8。派手にしすぎない）。読み込み時に左から順にポンと出て、出たあとにやわらかい光が1回だけ順に横切る。ツヤのハイライトや星などの絵文字的な表現は入れない（チープに見えるため）。常時動く演出にはしない
 - スマホのヘッダー：600px 以下でロゴ文字を 16px、420px 以下と 360px 以下で段階的にロゴ文字・SOUND・ご予約の字間と余白を詰めて（Science Gothic のときに追加。以降のフォントでもそのまま）、320px 幅でも横スクロールが出ないようにしている
-- フッターに sun_r のブランドナビ（sun_r brands／sun_r nail（現在地）／handmade shop／creative／build）。リンク先は https://sun-r-brands.pages.dev/ 配下で、同じタブで開く（brands へ戻るための導線）
+- フッターに sun_r のブランドナビ（sun_r brands／stitch／useful／sun_r nail（現在地）／renovation。2026-11-23 にブランド名を sun_r の頭文字にそろえて改名し、この順に並べ替え）。リンク先は https://sun-r-brands.pages.dev/ 配下で、同じタブで開く（brands へ戻るための導線）
 
 ## 確定している情報
 
