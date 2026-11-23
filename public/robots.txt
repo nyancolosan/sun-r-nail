@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sun-r-nail.pages.dev/sitemap.xml

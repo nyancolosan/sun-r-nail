@@ -91,6 +91,11 @@ wrangler.jsonc      Cloudflare 設定（public/ を静的配信）
 - 独自ドメインを使う場合：Workers & Pages → sun-r-nail → カスタムドメイン で追加し、index.html の canonical・og:url・og:image・JSON-LD の URL も差し替える
 - `wrangler.jsonc` は Workers で配信する場合の設定（現在の Pages 公開では未使用）
 
+## 検索エンジン向け（2026-11-23 追加）
+- `public/robots.txt`（全ページ許可＋sitemap の場所）／`public/sitemap.xml`（/ のみ）
+- `<title>` は「sun_r nail｜岸和田のプライベートネイルサロン」（検索で地名・業種と結びつけるため）。og:title は sun_r nail salon のまま
+- 次の一歩（オーナー作業）：Google Search Console に登録し sitemap を送信。Google ビジネスプロフィール登録も推奨
+
 ## 確認項目（公開後）
 
 - スマホ幅（375px）とPC幅（1280px）でレイアウト崩れがない（スマホではナビが隠れ、ヘッダーはロゴ・SOUND・ご予約の3つ）
