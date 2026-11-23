@@ -4,6 +4,7 @@
 - 変更を push（＝公開サイトに反映）したら、返信に必ず公開URLを添える（変更したページのURL。両サイトに関わる場合は両方）
   - sun_r brands：https://sun-r-brands.pages.dev/（/shop・/creative・/build）
   - sun_r nail：https://sun-r-nail.pages.dev/
+- sun_r nail と sun_r brands は連動させる。片方を変えたら、もう片方に関わる部分（nail のロゴ・表示名・色・URL・説明文、フッターのブランドナビ、brands のトップの nail の行など）も同じ作業の中で更新し、両方を push する（リポジトリ：`nyancolosan/sun-r-nail`／`nyancolosan/sun-r-brands`）
 
 
 ネイルサロン「sun_r」の1ページ公式サイト。デザインと中身は確定済みで、`public/index.html` が完成品（動作確認済み）。
